@@ -9,12 +9,6 @@
 	<packaging>mule</packaging>
 	<name>Mule mule-maven-deployment-demo Application</name>
 
-	<parent>
-		<groupId>com.javastreets</groupId>
-		<artifactId>mule-maven-parent-pom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-
 
 	<build>
 		<plugins>
@@ -35,6 +29,7 @@
 					<skip>true</skip>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 	<!-- Mule Dependencies -->
